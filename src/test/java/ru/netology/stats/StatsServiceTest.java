@@ -29,8 +29,9 @@ public class StatsServiceTest {
         Assertions.assertEquals(expectedSum, actualSum);
 
     }
+
     @Test
-    public void SumOfAllSalesOneSumNegative() {
+    public void sumOfAllSalesOneSumNegative() {
         StatsService service = new StatsService();
         int[] sales3 = {5, 4, -10, 20, 50};
 
